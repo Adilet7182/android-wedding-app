@@ -1,0 +1,32 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="22dp"
+    android:layout_marginBottom="8dp"
+    android:background="#F5F5F5"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Название стола"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:background="#E0E0E0"/>
+
+    <LinearLayout
+        android:id="@+id/guestsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="4dp">
+    </LinearLayout>
+
+</LinearLayout>
